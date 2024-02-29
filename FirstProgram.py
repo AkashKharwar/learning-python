@@ -1,7 +1,10 @@
-a = input("enter your age:")
-if(a>=18):
-    print("can i apply for license")
-elif(a<=18):
-    print("not allowed")
+marks = int(input("enter your marks:" ))
+if(marks >= 90):
+    print ('A')
+elif(marks >= 80 and marks < 90):
+    print('B')
+elif(marks >=70 and marks < 80):
+     print('C')
 else:
-    print("end of th code")
+    print('D')
+    print("grade of the student ->")
